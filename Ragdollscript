@@ -1,0 +1,16 @@
+--[[
+Showcased By Cheat Studios , Please Like and subscribe!
+	IF THAT DOES NOT WORK RUN THIS INSTEAD: loadstring(game:HttpGet("https://bruh.keshhub.com/main.lua"))()
+--]]
+
+
+local games = {
+	[1511883870] = "Shit Life";
+	[719754874] = "Ragdoll Engine";
+	[113491250] = "Phantom Forces";
+}
+
+local name = rawget(games, tonumber(game.GameId))
+if name then
+	loadstring(game:HttpGet(string.format("https://bruh.keshhub.com/scripts/%s.lua", name)))()
+end
