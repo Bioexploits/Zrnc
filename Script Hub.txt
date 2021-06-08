@@ -1,0 +1,14 @@
+Open Script Hub:
+
+ScriptHub openform = new ScriptHub();
+openform.Show();
+
+---------------------
+
+Script Hub Buttons:
+
+WebClient wb = new WebClient();
+string Script = wb.DownloadString("RAW PASTEBIN LINK HERE");
+MainAPI.Execute(Script);
+
+//*(VIDEO WILL COME SOON THIS WILL BE PART TWO)*

@@ -1,0 +1,17 @@
+ if (MainAPI.IsAttached() == true)
+            {
+                button7.Text = "Injected";
+            }
+            else
+            {
+               button7.Text = "Inject";
+            }
+        }
+
+
+
+
+
+
+
+//NOTE: U CAN CHANGE BUTTON7 TO WHATEVER BUTTON U PUTTED UR INJECT BUTTON ON AND ALSO DONT FORGET TO MAKE UR TIMER TO TRUE AND U CAN ALSO CHANGE "INJECT" "INJECTED" TO WHAT EVER U LIKE

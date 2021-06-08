@@ -1,0 +1,1 @@
+System.Diagnostics.Process.Start("ur discord server link or yt channel or what ever u want to advertise");

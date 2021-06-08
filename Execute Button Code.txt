@@ -1,0 +1,1 @@
+MainAPI.Execute(fastColoredTextBox1.Text);

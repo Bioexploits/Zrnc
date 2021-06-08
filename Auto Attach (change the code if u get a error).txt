@@ -1,0 +1,16 @@
+ if (MainAPI.AutoAttach(true);
+                
+            }
+            else
+            {
+              MainAPI.AutoAttach(false);
+            }
+        }
+
+
+
+
+
+
+
+//NOTE:PUT THIS CODE TO UR CHECKBOX
